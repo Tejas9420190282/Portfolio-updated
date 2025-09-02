@@ -1,8 +1,58 @@
-# React + Vite
+📌 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built using React.js and TailwindCSS to showcase my projects, skills, and experience.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive design for desktop and mobile
+
+About Me section with background and skills
+
+Projects section with live demo & GitHub links
+
+Contact form (optional if added)
+
+Modern UI using TailwindCSS
+
+🛠️ Tech Stack
+
+Frontend: React.js, TailwindCSS
+
+Deployment: Netlify / Vercel (mention where you deployed)
+
+📂 Project Structure
+Portfolio-updated/
+│-- src/
+│   │-- components/     # Reusable UI components
+│   │-- pages/          # Portfolio pages (Home, About, Projects, Contact)
+│   │-- assets/         # Images, icons, etc.
+│-- public/             # Static files
+│-- package.json        # Dependencies
+│-- README.md           # Documentation
+
+
+⚡ Getting Started
+1️⃣ Clone the repo
+git clone https://github.com/Tejas9420190282/Portfolio-updated.git
+cd Portfolio-updated
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run locally
+npm run dev
+
+4️⃣ Build for production
+npm run build
+
+🌐 Live Demo - https://tejas-shimpi-portfolio.netlify.app/
+
+👉 Click here to view
+
+📧 Contact
+
+If you’d like to connect, feel free to reach out:
+
+Email: tejasshimpi877@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/tejas-shimpi-459235206
