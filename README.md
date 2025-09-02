@@ -20,6 +20,7 @@ Deployment: Netlify
 
 📂 Project Structure
 Portfolio-updated/
+
 │-- src/
 
 │   │-- components/     # Reusable UI components
