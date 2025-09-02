@@ -21,11 +21,17 @@ Deployment: Netlify
 📂 Project Structure
 Portfolio-updated/
 │-- src/
+
 │   │-- components/     # Reusable UI components
+
 │   │-- pages/          # Portfolio pages (Home, About, Projects, Contact)
+
 │   │-- assets/         # Images, icons, etc.
+
 │-- public/             # Static files
+
 │-- package.json        # Dependencies
+
 │-- README.md           # Documentation
 
 
