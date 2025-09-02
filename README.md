@@ -10,15 +10,13 @@ About Me section with background and skills
 
 Projects section with live demo & GitHub links
 
-Contact form (optional if added)
-
 Modern UI using TailwindCSS
 
 🛠️ Tech Stack
 
 Frontend: React.js, TailwindCSS
 
-Deployment: Netlify / Vercel (mention where you deployed)
+Deployment: Netlify
 
 📂 Project Structure
 Portfolio-updated/
@@ -47,7 +45,6 @@ npm run build
 
 🌐 Live Demo - https://tejas-shimpi-portfolio.netlify.app/
 
-👉 Click here to view
 
 📧 Contact
 
