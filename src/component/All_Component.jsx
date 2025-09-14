@@ -14,13 +14,13 @@ function All_Component() {
     return (
         <>
             <Hii />
-             <About_me /> 
+            <About_me /> 
             <Experiance /> 
-             <Services />
+            <Services />
             <Portfolio />
             <Contact />
             <Last />
-            <Nav />
+            <Nav /> 
         </>
     );
 }
