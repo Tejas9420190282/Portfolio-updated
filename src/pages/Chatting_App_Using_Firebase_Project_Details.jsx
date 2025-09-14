@@ -67,7 +67,7 @@ function Chatting_App_Using_Firebase_Project_Details() {
 
     return (
         <>
-            <div className="min-h-screen shadow-2xl  bg-[#2C2C6C]  rounded-3xl  text-white font-sans p-4 sm:p-10 flex flex-col items-center hover:bg-[#1F1F38] hover:border-4 hover:border-[#49A7EC]">
+            <div className="min-h-screen shadow-2xl  bg-[#2C2C6C]  rounded-3xl  text-white font-sans lg:p-4 sm:p-10 flex flex-col items-center hover:bg-[#1F1F38] hover:border-4 hover:border-[#49A7EC]">
                 <div className="w-full max-w-6xl p-6 md:p-12    ">
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-center text-cyan-400 mb-2">
                         🗨️ React Chat App with Firebase
@@ -189,7 +189,7 @@ function Chatting_App_Using_Firebase_Project_Details() {
                                 <h4 className="text-xl font-bold mt-8 mb-4 text-cyan-400">
                                     🛠️ Technologies Used
                                 </h4>
-                                <div className="space-y-5">
+                                <div className="space-y-5 text-left">
                                     <InfoItem
                                         icon={Target}
                                         text={

@@ -66,12 +66,12 @@ function Airline_Reservation_System_Project_Details() {
     };
 
     return (
-        <div className="min-h-screen shadow-2xl  bg-[#2C2C6C]  rounded-3xl  text-white font-sans p-4 sm:p-10 flex flex-col items-center hover:bg-[#1F1F38] hover:border-4 hover:border-[#49A7EC]">
+        <div className="min-h-screen shadow-2xl  bg-[#2C2C6C]  rounded-3xl  text-white font-sans lg:p-4 sm:p-10 flex flex-col items-center hover:bg-[#1F1F38] hover:border-4 hover:border-[#49A7EC]">
             <div className="w-full max-w-6xl p-6 md:p-12    ">
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-center text-cyan-400 mb-2">
                     ✈️ Airline Reservation System
                 </h2>
-                <p className="text-center text-gray-400 mb-12 text-sm sm:text-base">
+                <p className="text-center text-gray-400 mb-10 text-sm sm:text-base">
                     A full-stack solution for managing and booking Flights.
                 </p>
 
@@ -91,18 +91,7 @@ function Airline_Reservation_System_Project_Details() {
                             <h3 className="text-2xl font-bold mb-6 text-gray-50">
                                 ✈️ Airline Reservation System
                             </h3>
-                            <p className="text-left">
-                                A full-stack Airline Reservation System built
-                                using Node.js, Express.js, MySQL, and EJS
-                                (Embedded JavaScript Templates). This system
-                                enables both admin and user functionality for
-                                managing flights, booking tickets, and viewing
-                                booking details.
-                            </p>
-
-                            <h3 className="text-2xl font-bold mb-6 mt-5 text-gray-50">
-                                ✅ Project Overview
-                            </h3>
+                            
                             <p className="text-left">
                                 This project is designed to simulate a
                                 real-world airline reservation platform where
@@ -161,7 +150,7 @@ function Airline_Reservation_System_Project_Details() {
                             <h4 className="text-xl font-bold mt-8 mb-4 text-cyan-400">
                                 ⚙️ Admin Features
                             </h4>
-                            <div className="space-y-5">
+                            <div className="space-y-5 text-left">
                                 <InfoItem
                                     icon={Settings}
                                     text="Flight management (CRUD operations)"
