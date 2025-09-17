@@ -1,3 +1,4 @@
+
 import React from "react";
 import ABC from "../assets/ABC.png";
 import turf_Finder_img from "../assets/turf_Finder_img.png";
@@ -5,33 +6,7 @@ import chat_app_img from "../assets/chat_app_img.png";
 import { useNavigate } from "react-router-dom";
 
 function Portfolio() {
-/*
-    const TurfFinderLIveDemo = () => {
-        window.open("https://turf-finder-project.netlify.app/");
-    };
 
-    const gitTurfFinder = () => {
-        window.open(
-            "https://github.com/Tejas9420190282/Host--Turf-Managment-System-Project---MYSQL2"
-        );
-    };
-
-    const appChatLIveDemo = () => {
-        window.open("https://chats-app-project.netlify.app/");
-    };
-
-    const gitChatApp = () => {
-        window.open(
-            "https://github.com/Tejas9420190282/React_Chat_App_Project.git"
-        );
-    };
-
-    const gitAirlineReservationSystem = () => {
-        window.open(
-            "https://github.com/Tejas9420190282/Airline_Reservation_System_NodeJs"
-        );
-    };
-*/
     const navigate = useNavigate();
 
     const handle_Turf_Finder_view_details = () => {
@@ -55,7 +30,7 @@ function Portfolio() {
                 <p className="text-[#49A7EC] text-3xl mt-2 font-bold flex justify-center">
                     Portfolio
                 </p>
-                <div className="md:flex mt-10 md:justify-center md:items-center ">
+                <div className="md:flex mt-10 justify-center items-center md:justify-center md:items-center ">
                     <div className="bg-[#2C2C6C] md:mr-5 h-96 w-80 md:w-[390px] md:h-[461px] mt-10 md:mt-0 rounded-3xl hover:bg-[#1F1F38] hover:border-2 hover:border-[#49A7EC]">
                         <div className="flex justify-center items-center">
                             <img
@@ -67,18 +42,7 @@ function Portfolio() {
                             Turf Finder
                         </p>
                         <div className="flex justify-center gap-5 mt-5">
-                            {/* <button
-                                className="bg-[#2C2C6C] text-[#49A7EC] border-[#49A7EC] font-semibold hover:bg-white hover:text-black hover:border-none"
-                                onClick={gitTurfFinder}
-                            >
-                                github
-                            </button>
-                            <button
-                                className="bg-[#49A7EC] text-black font-semibold hover:bg-white"
-                                onClick={TurfFinderLIveDemo}
-                            >
-                                Live Demo
-                            </button> */}
+                            
 
                             <button className="bg-[#49A7EC] text-black font-semibold hover:bg-white" onClick={handle_Turf_Finder_view_details}>View Details</button>
                         </div>
@@ -92,24 +56,13 @@ function Portfolio() {
                             />
                         </div>
                         <div className="flex">
-                            <p className="mt-6 text-left ml-8 text-2xl font-bold">
+                            <p className="mt-6 text-left ml-8 text-xl font-bold">
                                 Chatting app using Firebase
                             </p>
                         </div>
 
                         <div className="flex justify-center gap-5 mt-5 ">
-                            {/* <button
-                                className="bg-[#2C2C6C] text-[#49A7EC] border-[#49A7EC] font-semibold hover:bg-white hover:text-black hover:border-none"
-                                onClick={gitChatApp}
-                            >
-                                github
-                            </button>
-                            <button
-                                className="bg-[#49A7EC] text-black font-semibold hover:bg-white"
-                                onClick={appChatLIveDemo}
-                            >
-                                Live Demo
-                            </button> */}
+                            
 
                             <button className="bg-[#49A7EC] text-black font-semibold hover:bg-white" onClick={handle_Chatting_App_Using_Firebase}>View Details</button>
                         </div>
