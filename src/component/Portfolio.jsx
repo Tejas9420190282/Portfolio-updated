@@ -4,6 +4,7 @@ import ABC from "../assets/ABC.png";
 import turf_Finder_img from "../assets/turf_Finder_img.png";
 import chat_app_img from "../assets/chat_app_img.png";
 import doctor from "../assets/doctor.png";
+import airline from "../assets/Airline.png";
 
 import { useNavigate } from "react-router-dom";
 
@@ -84,7 +85,7 @@ function Portfolio() {
                     <div className="bg-[#2C2C6C] h-96 w-80 md:w-[390px] md:h-[461px] mt-10 md:mt-0 rounded-3xl hover:bg-[#1F1F38] hover:border-2 hover:border-[#49A7EC]">
                         <div className="flex justify-center items-center">
                             <img
-                                src={ABC}
+                                src={airline}
                                 className="h-[200px] w-[250px] mt-7 md:h-[280px] md:w-[320px] rounded-2xl"
                             />
                         </div>
