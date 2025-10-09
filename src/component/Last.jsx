@@ -5,12 +5,13 @@ import { SiCodesignal } from "react-icons/si";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Last() {
 
   const handleInstaClick = () => {
 
-    const instagramUrl = 'https://www.instagram.com/tejas_shimpi_2001?igsh=c2xodHA4a3lkNnJi'; // Replace with the actual Instagram URL
+    const instagramUrl = 'https://www.instagram.com/tejas_shimpi_1810?igsh=c2xodHA4a3lkNnJi'; // Replace with the actual Instagram URL
     window.open(instagramUrl, '_blank');
   }  
 
@@ -25,6 +26,12 @@ function Last() {
     const gitUrl = "https://github.com/Tejas9420190282"; // Replace with the actual Instagram URL
     window.open(gitUrl, '_blank');
   }
+
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "9420190282"; // Replace with the actual phone number
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <>
@@ -53,9 +60,16 @@ function Last() {
             <FaLinkedin className="text-3xl md:text-xl " />
           </div>
 
+          <div className="h-[50px] w-[50px] bg-[#34346d] flex justify-center items-center rounded-xl md:h-[40px] md:w-[40px] cursor-pointer" onClick={handleWhatsAppClick}>
+            <FaWhatsapp className="text-3xl md:text-xl "  />
+          </div>
+
           <div className="h-[50px] w-[50px] bg-[#34346d] flex justify-center items-center rounded-xl md:h-[40px] md:w-[40px] cursor-pointer" onClick={handleInstaClick}>
             <IoLogoInstagram className="text-3xl md:text-xl "  />
           </div>
+
+          
+
         </div>
 
         <p className="text-center text-[10px] mt-8 text-[#34346d]">

@@ -104,7 +104,7 @@ function Experience() {
                                             React Router
                                         </p>
                                         <p className="text-[#9D9DA6] text-sm font-semibold">
-                                            Intermediate
+                                            Experience
                                         </p>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ function Experience() {
                                             MYSQL
                                         </p>
                                         <p className="text-[#9D9DA6] text-sm font-semibold">
-                                            Intermediate
+                                            Experience
                                         </p>
                                     </div>
                                 </div>
