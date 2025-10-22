@@ -1,0 +1,8 @@
+
+
+User-agent: *
+Allow: /
+
+Sitemap: https://tejas-shimpi-portfolio.netlify.app/sitemap.xml
+
+
