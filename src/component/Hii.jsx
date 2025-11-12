@@ -30,8 +30,8 @@ function Hii() {
         <>
             <div className='overflow-hidden' id='home'>
                 <div>
-                    <p className='flex justify-center font-bold'>Hello I'm</p>
-                    <h1 className='flex justify-center font-bold mt-3'>Tejas Shimpi</h1>
+                    <p className='flex justify-center font-bold text-white'>Hello I'm</p>
+                    <h1 className='flex justify-center font-bold mt-3 text-white'>Tejas Shimpi</h1>
                     <p className='flex justify-center text-[#9D9DA6] font-bold mt-3'>Web Developer</p>
                 </div>
                 <div className='flex justify-center mt-6 gap-8'>

@@ -30,10 +30,10 @@ function About_me() {
                     <div>
                         <div className="flex flex-wrap justify-center items-center gap-5 ">
                             <div className="bg-[#2C2C6C] h-[170px] w-[170px] rounded-3xl hover:border-2 hover:bg-[#1f1f38] hover:border-[#49A7EC]">
-                                <div className="flex justify-center text-3xl mt-5 ">
+                                <div className="flex justify-center text-3xl mt-5 text-white">
                                     <IoSchoolSharp />
                                 </div>
-                                <p className="font-semibold mt-5 text-">
+                                <p className="font-semibold mt-5 text-white">
                                     Qualification
                                 </p>
                                 <p className="font-semibold text-[#9D9DA6] text-xl mt-3">
@@ -41,10 +41,10 @@ function About_me() {
                                 </p>
                             </div>
                             <div className="bg-[#2C2C6C] h-[170px] w-[170px] rounded-3xl hover:border-2 hover:bg-[#1f1f38] hover:border-[#49A7EC]">
-                                <div className="flex justify-center text-3xl mt-5">
+                                <div className="flex justify-center text-3xl mt-5 text-white">
                                     <FaShoppingBag />
                                 </div>
-                                <p className="font-semibold mt-5 text-">
+                                <p className="font-semibold mt-5 text-white">
                                     Experience
                                 </p>
                                 <p className="font-semibold text-[#9D9DA6]">
@@ -52,10 +52,10 @@ function About_me() {
                                 </p>
                             </div>
                             <div className="bg-[#2C2C6C] h-[170px] w-[170px] rounded-3xl hover:border-2 hover:bg-[#1f1f38] hover:border-[#49A7EC]">
-                                <div className="flex justify-center text-3xl mt-5">
+                                <div className="flex justify-center text-3xl mt-5 text-white">
                                     <IoStatsChartSharp />
                                 </div>
-                                <p className="font-semibold mt-5 ">Project</p>
+                                <p className="font-semibold mt-5 text-white">Project</p>
                                 <p className="font-semibold text-[#9D9DA6]">
                                     3
                                 </p>
@@ -63,7 +63,7 @@ function About_me() {
                         </div>
 
                         <div className="md:w-[550px] text-center md:text-center mt-10">
-                            <p className="flex flex-wrap">
+                            <p className="flex flex-wrap text-white">
                                 Hi ! <br />I am Tejas Shimpi, a web
                                 designer/developer focused on crafting great web
                                 experiences. Designing and Coding have been my

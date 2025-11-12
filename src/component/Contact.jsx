@@ -52,12 +52,12 @@ function Contact() {
           <div className="">
             <div className="w-80 h-40 mx-auto md:mx-0 mt-10 rounded-2xl bg-[#2C2C6C] md:h-32 hover:bg-[#1b1b31] hover:border-2 hover:border-[#49A7EC]">
               <div className="pt-5  md:pt-3 flex justify-center">
-                <MdOutlineMail className=" text-3xl " />
+                <MdOutlineMail className=" text-3xl text-white" />
               </div>
-              <p className="mt-1  text-2xl font-bold md:text-base md:mt-1">
+              <p className="mt-1  text-2xl font-bold md:text-base md:mt-1 text-white">
                 Email
               </p>
-              <p className="font-semibold text-xl mt-1 md:text-sm md:mt-1">
+              <p className="font-semibold text-xl mt-1 md:text-sm md:mt-1 text-white">
                 tejasshimpi877@gmail.com
               </p>
               <p
@@ -70,12 +70,12 @@ function Contact() {
 
             <div className="w-80 h-44 mx-auto md:mx-0 mt-10 rounded-2xl bg-[#2C2C6C] md:h-32 hover:bg-[#1b1b31] hover:border-2 hover:border-[#49A7EC]">
               <div className="pt-5 md:pt-3 flex justify-center">
-                <FaLinkedin className=" text-3xl" />
+                <FaLinkedin className=" text-3xl text-white" />
               </div>
-              <p className="mt-2 text-2xl font-bold md:text-base md:mt-1">
+              <p className="mt-2 text-2xl font-bold md:text-base md:mt-1 text-white">
                 Linkedin
               </p>
-              <p className="font-semibold text-xl mt-2 md:text-sm md:mt-1">
+              <p className="font-semibold text-xl mt-2 md:text-sm md:mt-1 text-white">
                 Tejas Shimpi
               </p>
               <p
@@ -88,12 +88,12 @@ function Contact() {
 
             <div className="w-80 h-44 mx-auto md:mx-0 mt-10 rounded-2xl bg-[#2C2C6C] md:h-32 hover:bg-[#1b1b31] hover:border-2 hover:border-[#49A7EC]">
               <div className="pt-5 md:pt-3 flex justify-center">
-                <FaWhatsapp className=" text-3xl" />
+                <FaWhatsapp className=" text-3xl text-white" />
               </div>
-              <p className="mt-2 text-2xl font-bold md:text-base md:mt-1">
+              <p className="mt-2 text-2xl font-bold md:text-base md:mt-1 text-white">
                 WhatsApp
               </p>
-              <p className="font-semibold text-xl mt-2 md:text-sm md:mt-1">
+              <p className="font-semibold text-xl mt-2 md:text-sm md:mt-1 text-white">
                 +91 9420190282
               </p>
               <p
